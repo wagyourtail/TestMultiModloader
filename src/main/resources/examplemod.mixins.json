@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "org.example.common.mixins",
+  "mixins": [
+  ],
+  "client": [
+    "MixinTitleScreen"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

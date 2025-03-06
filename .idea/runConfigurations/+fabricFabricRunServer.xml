@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name=" Minecraft Server (fabric)" factoryName="Application" type="Application">
+        <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\ruwag\.jdks\corretto-21.0.5"></option>
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true"></option>
+        <envs></envs>
+        <option name="MAIN_CLASS_NAME" value="net.fabricmc.loader.impl.launch.knot.KnotServer"></option>
+        <module name="TestMultiModloader.fabric"></module>
+        <classpathModifications></classpathModifications>
+        <option name="PROGRAM_PARAMETERS" value="nogui"></option>
+        <option name="VM_PARAMETERS" value="-Dfabric.development=true -Dfabric.remapClasspathFile=H:\Projects\Cursed\TestMultiModloader\.gradle\unimined\local\fabric\fabricRemapClasspath.txt -Dfabric.classPathGroups=H:\Projects\Cursed\TestMultiModloader\build\classes\java\main;H:\Projects\Cursed\TestMultiModloader\build\resources\main;H:\Projects\Cursed\TestMultiModloader\build\classes\java\fabric;H:\Projects\Cursed\TestMultiModloader\build\resources\fabric"></option>
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run\server"></option>
+        <method v="2">
+            <option name="Make" enabled="true"></option>
+            <option scriptParameters="" name="Gradle.BeforeRunTask" externalProjectPath="$PROJECT_DIR$/" vmOptions="" enabled="true" tasks="fabricPreRunServer"></option>
+        </method>
+    </configuration>
+</component>

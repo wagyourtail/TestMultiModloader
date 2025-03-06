@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name=" Minecraft Client (fabric)" factoryName="Application" type="Application">
+        <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\ruwag\.jdks\corretto-21.0.5"></option>
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true"></option>
+        <envs></envs>
+        <option name="MAIN_CLASS_NAME" value="net.fabricmc.loader.impl.launch.knot.KnotClient"></option>
+        <module name="TestMultiModloader.fabric"></module>
+        <classpathModifications></classpathModifications>
+        <option name="PROGRAM_PARAMETERS" value="--username Dev --version 1.21.1 --gameDir H:\Projects\Cursed\TestMultiModloader\run\client --assetsDir C:\Users\ruwag\.gradle\caches\unimined\assets --assetIndex 17 --uuid 380df991-f603-344c-a090-369bad2a924a --accessToken 0 --clientId unimined --xuid  --userType msa --versionType release"></option>
+        <option name="VM_PARAMETERS" value="-Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Djna.tmpdir=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Dorg.lwjgl.system.SharedLibraryExtractPath=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Dio.netty.native.workdir=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Dminecraft.launcher.brand=UniminedDev -Dminecraft.launcher.version=1.0.0 -Dfabric.development=true -Dfabric.remapClasspathFile=H:\Projects\Cursed\TestMultiModloader\.gradle\unimined\local\fabric\fabricRemapClasspath.txt -Dfabric.classPathGroups=H:\Projects\Cursed\TestMultiModloader\build\classes\java\main;H:\Projects\Cursed\TestMultiModloader\build\resources\main;H:\Projects\Cursed\TestMultiModloader\build\classes\java\fabric;H:\Projects\Cursed\TestMultiModloader\build\resources\fabric"></option>
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run\client"></option>
+        <method v="2">
+            <option name="Make" enabled="true"></option>
+            <option scriptParameters="" name="Gradle.BeforeRunTask" externalProjectPath="$PROJECT_DIR$/" vmOptions="" enabled="true" tasks="fabricPreRunClient"></option>
+        </method>
+    </configuration>
+</component>

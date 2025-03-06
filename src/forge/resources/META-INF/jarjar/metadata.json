@@ -1,0 +1,59 @@
+{
+  "jars": [
+    {
+      "identifier": {
+        "group": "net.bytebuddy",
+        "artifact": "byte-buddy-agent"
+      },
+      "version": {
+        "range": "[1.17.2,)",
+        "artifactVersion": "1.17.2"
+      },
+      "path": "META-INF/jars/byte-buddy-agent-1.17.2.jar"
+    },
+    {
+      "identifier": {
+        "group": "io.github.prcraftmc",
+        "artifact": "class-diff"
+      },
+      "version": {
+        "range": "[1.0-SNAPSHOT,)",
+        "artifactVersion": "1.0-SNAPSHOT"
+      },
+      "path": "META-INF/jars/class-diff-1.0-SNAPSHOT.jar"
+    },
+    {
+      "identifier": {
+        "group": "io.github.java-diff-utils",
+        "artifact": "java-diff-utils"
+      },
+      "version": {
+        "range": "[4.12,)",
+        "artifactVersion": "4.12"
+      },
+      "path": "META-INF/jars/java-diff-utils-4.12.jar"
+    },
+    {
+      "identifier": {
+        "group": "com.nothome",
+        "artifact": "javaxdelta"
+      },
+      "version": {
+        "range": "[2.0.1,)",
+        "artifactVersion": "2.0.1"
+      },
+      "path": "META-INF/jars/javaxdelta-2.0.1.jar"
+    },
+    {
+      "identifier": {
+        "group": "trove",
+        "artifact": "trove"
+      },
+      "version": {
+        "range": "[1.0.2,)",
+        "artifactVersion": "1.0.2"
+      },
+      "path": "META-INF/jars/trove-1.0.2.jar"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name=" Minecraft Client (forge)" factoryName="Application" type="Application">
+        <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\ruwag\.jdks\corretto-21.0.5"></option>
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true"></option>
+        <envs>
+            <env name="MCP_MAPPINGS" value="unimined.stub"></env>
+            <env name="MOD_CLASSES" value="__forge%%H:\Projects\Cursed\TestMultiModloader\build\resources\main;__forge%%H:\Projects\Cursed\TestMultiModloader\build\classes\java\main;__forge%%H:\Projects\Cursed\TestMultiModloader\build\resources\forge;__forge%%H:\Projects\Cursed\TestMultiModloader\build\classes\java\forge"></env>
+            <env name="FORGE_SPEC" value="2"></env>
+        </envs>
+        <option name="MAIN_CLASS_NAME" value="juuxel.unionrelauncher.UnionRelauncher"></option>
+        <module name="TestMultiModloader.forge"></module>
+        <classpathModifications></classpathModifications>
+        <option name="PROGRAM_PARAMETERS" value="--launchTarget forge_userdev_client --version MOD_DEV --assetIndex 17 --assetsDir C:\Users\ruwag\.gradle\caches\unimined\assets --gameDir ."></option>
+        <option name="VM_PARAMETERS" value="-Xmx2G -XX:+UnlockExperimentalVMOptions -XX:+UseG1GC -XX:G1NewSizePercent=20 -XX:G1ReservePercent=20 -XX:MaxGCPauseMillis=50 -XX:G1HeapRegionSize=32M -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Djava.library.path=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Djna.tmpdir=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Dorg.lwjgl.system.SharedLibraryExtractPath=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Dio.netty.native.workdir=H:\Projects\Cursed\TestMultiModloader\run\client\natives -Dminecraft.launcher.brand=UniminedDev -Dminecraft.launcher.version=1.0.0 -javaagent:C:\Users\ruwag\.gradle\caches\modules-2\files-2.1\io.github.juuxel\unprotect\1.3.0\d51641f60082321fa30f4b220741d2c9fe122151\unprotect-1.3.0.jar -DunionRelauncher.mainClass=net.minecraftforge.bootstrap.ForgeBootstrap -Djava.net.preferIPv6Addresses=system -Dforge.enableGameTest=true"></option>
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run\client"></option>
+        <method v="2">
+            <option name="Make" enabled="true"></option>
+            <option scriptParameters="" name="Gradle.BeforeRunTask" externalProjectPath="$PROJECT_DIR$/" vmOptions="" enabled="true" tasks="forgePreRunClient"></option>
+        </method>
+    </configuration>
+</component>

@@ -1,0 +1,17 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name=" Minecraft Server" factoryName="Application" type="Application">
+        <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\ruwag\.jdks\corretto-21.0.5"></option>
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true"></option>
+        <envs></envs>
+        <option name="MAIN_CLASS_NAME" value="net.minecraft.server.Main"></option>
+        <module name="TestMultiModloader.main"></module>
+        <classpathModifications></classpathModifications>
+        <option name="PROGRAM_PARAMETERS" value="nogui"></option>
+        <option name="VM_PARAMETERS" value=""></option>
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run\server"></option>
+        <method v="2">
+            <option name="Make" enabled="true"></option>
+            <option scriptParameters="" name="Gradle.BeforeRunTask" externalProjectPath="$PROJECT_DIR$/" vmOptions="" enabled="true" tasks="preRunServer"></option>
+        </method>
+    </configuration>
+</component>

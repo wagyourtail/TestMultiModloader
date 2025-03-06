@@ -1,0 +1,21 @@
+<component name="ProjectRunConfigurationManager">
+    <configuration default="false" name=" Minecraft Server (forge)" factoryName="Application" type="Application">
+        <option name="ALTERNATIVE_JRE_PATH" value="C:\Users\ruwag\.jdks\corretto-21.0.5"></option>
+        <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true"></option>
+        <envs>
+            <env name="MCP_MAPPINGS" value="unimined.stub"></env>
+            <env name="MOD_CLASSES" value="__forge%%H:\Projects\Cursed\TestMultiModloader\build\resources\main;__forge%%H:\Projects\Cursed\TestMultiModloader\build\classes\java\main;__forge%%H:\Projects\Cursed\TestMultiModloader\build\resources\forge;__forge%%H:\Projects\Cursed\TestMultiModloader\build\classes\java\forge"></env>
+            <env name="FORGE_SPEC" value="2"></env>
+        </envs>
+        <option name="MAIN_CLASS_NAME" value="net.minecraftforge.bootstrap.ForgeBootstrap"></option>
+        <module name="TestMultiModloader.forge"></module>
+        <classpathModifications></classpathModifications>
+        <option name="PROGRAM_PARAMETERS" value="--launchTarget forge_userdev_server --gameDir ."></option>
+        <option name="VM_PARAMETERS" value="-javaagent:C:\Users\ruwag\.gradle\caches\modules-2\files-2.1\io.github.juuxel\unprotect\1.3.0\d51641f60082321fa30f4b220741d2c9fe122151\unprotect-1.3.0.jar -Djava.net.preferIPv6Addresses=system -Dforge.enableGameTest=true"></option>
+        <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/run\server"></option>
+        <method v="2">
+            <option name="Make" enabled="true"></option>
+            <option scriptParameters="" name="Gradle.BeforeRunTask" externalProjectPath="$PROJECT_DIR$/" vmOptions="" enabled="true" tasks="forgePreRunServer"></option>
+        </method>
+    </configuration>
+</component>
